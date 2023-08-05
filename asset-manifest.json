@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/Room_chat/static/css/main.c9516758.css",
+    "main.js": "/Room_chat/static/js/main.bbd92597.js",
+    "index.html": "/Room_chat/index.html",
+    "main.c9516758.css.map": "/Room_chat/static/css/main.c9516758.css.map",
+    "main.bbd92597.js.map": "/Room_chat/static/js/main.bbd92597.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.c9516758.css",
+    "static/js/main.bbd92597.js"
+  ]
+}
