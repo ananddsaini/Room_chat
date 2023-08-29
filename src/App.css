@@ -1,0 +1,93 @@
+body {
+  padding: 0;
+  margin: 0;
+}
+
+.App {
+  display: flex;
+ 
+  width: 100vw;
+  height: 100vh;
+  flex-direction: column;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  background-image: url("../src/22.webp");
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+}
+.appName {
+  color: #07efeb;
+  position: relative;
+  font-size: 2.8rem;
+  margin-top: 8%;
+}
+.app-header {
+  color: white;
+  width: 100%;
+  height: 30%;
+  text-align: center;
+}
+
+.app-container {
+  margin-top: 50px;
+ 
+  background-image: url("../src/22.webp");
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+}
+
+.room {
+ 
+  color: white;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-image: url("../src/22.webp");
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+}
+
+
+.room label {
+  text-align: center;
+  font-size: 25px;
+  margin-bottom: 20px;
+}
+
+.room input {
+  width: 200px;
+  height: 45px;
+  
+  border-radius: 8px;
+  padding-left: 5px;
+  font-size: 20px;
+  text-align: center;
+  margin: 5px;
+}
+.room button {
+  width: 120px;
+  height: 40px;
+  border: none;
+  border-radius: 10px;
+  padding-left: 5px;
+  font-size: 20px;
+  text-align: center;
+  margin: 8px;
+  background-color:  #07efeb;
+  color: white;
+  cursor: pointer;
+}
+
+.sign-out {
+ 
+  position: absolute;
+  margin: 1.5% 0 0 90%;
+}
+.sign-out > button {
+  font-size: 15px;
+  font-weight: bold;
+  height: 30px;
+  width: 90px;
+  border-radius: 10px;
+  color:azure;
+  background-color: #07efeb;
+}
